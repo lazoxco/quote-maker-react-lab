@@ -91,9 +91,4 @@ const mapDipatchToProps = dispatch => ({
   addQuote: quote => dispatch(addQuote(quote))
 })
 
-// const mapDispatchToProps = dispatch => ({
-//   addBand: name => dispatch({ type: "ADD_BAND", name })
-// })
-
-
 export default connect(null, mapDipatchToProps)(QuoteForm);
